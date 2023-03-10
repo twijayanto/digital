@@ -62,7 +62,7 @@ public class ImageService {
             text.forEach(s -> {
                 boolean isContainsO = false;
                 for (int i=0; i<s.length(); i++) {
-                    if (s.charAt(i) == 'o') {
+                    if (s.charAt(i) == 'o' || s.charAt(i) == 'O') {
                         isContainsO = true;
                         break;
                     }
