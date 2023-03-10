@@ -1,0 +1,16 @@
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    displayOperationId: true
+
+ocr:
+  space:
+    url: https://api.ocr.space/parse/image
+    apikey: CHANGE_IT_OCR_SPACE_APIKEY
+resources:
+  static:
+    img1-path: "static/ImageWithWords1.jpg"
+    img2-path: "static/ImageWithWords2.png"
+    img3-path: "static/ImageWithWords3.jpg"
+    img4-path: "static/ImageWithWords4.jpg"
